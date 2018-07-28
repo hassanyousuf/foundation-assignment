@@ -1,0 +1,108 @@
+div {
+	/* border:1px solid #000;
+	background-color: #ccc; */
+}
+
+.hidden
+{
+	display: none;
+}
+.noborder {
+	border:0;
+}
+
+body{
+overflow: auto;
+display: block;
+
+}
+@font-face {
+font-family: myHeading;
+src: url("../fonts/loto-regular-webfont.woff");
+}
+@@font-face {
+	font-family:myParagraph;
+	src: url("../fonts/lustria-regular-webfont.woff")
+}
+p
+{
+	/* font-family:myParagraph; */
+	font-size:14px;
+	padding-top: 20px;
+}
+h1
+{
+	font-family: myHeading;
+	font-size:30px;
+
+}
+span
+{
+	font-size: 18px;
+
+}
+h2
+{
+	font-family: myHeading;
+	font-size: 20px;
+
+
+}
+h3
+{
+	font-size: 12px;
+	color: #8ea86e;
+}
+#main-nav
+{
+background-color: white;
+/* need to make drop down not effect flow of rest of page */
+}
+#main-nav a
+{
+	float: right;
+
+}
+
+
+.title-bar
+{
+	background-color: white;
+	color:#8ea86e;
+}
+
+.menu-icon
+{
+	color: #8ea86e;
+/* there is an issue with this cuz the hamberger menu is white now */
+}
+#button
+{
+	background-color:#8ea86e;
+	padding:10px;
+	border-radius: 5px;
+	color: white;
+}
+
+}
+
+#footer
+{
+	background-color: #8ea86e;
+}
+.portrait
+{
+	margin:0 auto;
+	position: relative;
+/* background-image: url("../images/panoramic_bg_3.jpg"); */
+
+}
+/*
+.panorama img
+{
+	position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+
+} */
